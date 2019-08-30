@@ -11,5 +11,6 @@ function logWhisper(string) {
   console.log(string.toLowerCase());
 }
 function sayHiToGrandma (string) {
-  var cant
+  var cantAnswer = "Ican't hear you!";
+  if (string.toLowerCase(string) === string) return cantAnswer;
 }
